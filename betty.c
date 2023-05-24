@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "shell.h"
 /**
  * main - checks for alphabetic character
  * @c: The character to input
