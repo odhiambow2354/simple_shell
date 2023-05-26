@@ -1,9 +1,9 @@
 #include "shell.h"
 
 /**
- * get_len - Get the length of a number.
+ * get_len - Get the lenght of a number.
  * @n: type int number.
- * Return: Length of a number.
+ * Return: Lenght of a number.
  */
 int get_len(int n)
 {
@@ -28,11 +28,11 @@ int get_len(int n)
 	return (lenght);
 }
 /**
- * _itoa - function converts int to string.
+ * aux_itoa - function converts int to string.
  * @n: type int number
  * Return: String.
  */
-char *_itoa(int n)
+char *aux_itoa(int n)
 {
 	unsigned int n1;
 	int lenght = get_len(n);
